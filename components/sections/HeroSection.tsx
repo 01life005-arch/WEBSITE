@@ -24,22 +24,22 @@ export default function HeroSection() {
           transition={{ duration: 0.6, ease: 'easeOut' }}
           className="flex-1"
         >
-          <p className="text-sm font-semibold uppercase tracking-[0.32em] text-[var(--accent)]">Personal brand</p>
+          <p className="text-sm font-semibold uppercase tracking-[0.32em] text-[var(--accent)]">MBA-BM at XIMB | Architect </p>
           <h1 id="hero-heading" className="mt-6 max-w-3xl text-5xl font-semibold leading-tight tracking-tight text-[var(--text-primary)] sm:text-6xl">
-            Architect turned strategist, building clarity for the next chapter.
+            MBA Candidate at XIMB, combining leadership, strategy, and execution.
           </h1>
           <p className="mt-8 max-w-2xl text-lg leading-8 text-[var(--text-secondary)]">
-            I bridge architecture and business through precise storytelling, systems thinking, and a commitment to outcomes that feel both elegant and usable.
+            Currently pursuing MBA-BM at Xavier Institute of Management, Bhubaneswar. With professional experience across architecture, project execution, and stakeholder management, I bring a blend of analytical thinking, leadership, and problem-solving to business challenges. Beyond academics, I actively engage in sports, event management, marketing initiatives, and community-building activities.
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-3">
+            <span className="rounded-full border border-[var(--border)] bg-[var(--bg-surface)] px-4 py-2 text-sm uppercase tracking-[0.24em] text-[var(--text-secondary)]">
+              MBA-BM
+            </span>
             <span className="rounded-full border border-[var(--border)] bg-[var(--bg-surface)] px-4 py-2 text-sm uppercase tracking-[0.24em] text-[var(--text-secondary)]">
               Architect
             </span>
             <span className="rounded-full border border-[var(--border)] bg-[var(--bg-surface)] px-4 py-2 text-sm uppercase tracking-[0.24em] text-[var(--text-secondary)]">
-              Strategist
-            </span>
-            <span className="rounded-full border border-[var(--border)] bg-[var(--bg-surface)] px-4 py-2 text-sm uppercase tracking-[0.24em] text-[var(--text-secondary)]">
-              MBA Candidate
+              Project Management
             </span>
           </div>
           <div className="mt-10">

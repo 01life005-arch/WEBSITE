@@ -1,9 +1,18 @@
+import Image from "next/image";
+
 export function ProfileImage() {
   return (
-    <div className="relative mx-auto aspect-square w-full max-w-[360px] overflow-hidden rounded-[2.5rem] border border-[var(--border)] bg-[var(--bg-subtle)] p-6 shadow-sm sm:mx-0">
-      <div className="flex h-full w-full items-center justify-center rounded-[1.75rem] bg-[var(--bg-base)] text-[var(--text-secondary)]">
-        <span className="text-sm uppercase tracking-[0.24em]">Profile image</span>
+    <div className="relative mx-auto aspect-square w-full max-w-[360px] overflow-hidden rounded-[2.5rem] border border-[var(--border)] p-4">
+      <div className="h-full w-full overflow-hidden rounded-[1.75rem]">
+        <Image
+          src="/shivam.jpg"
+          alt="Shivam"
+          width={500}
+          height={500}
+          className="h-full w-full object-cover"
+          priority
+        />
       </div>
     </div>
-  )
+  );
 }
