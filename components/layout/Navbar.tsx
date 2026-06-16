@@ -44,7 +44,7 @@ export function Navbar() {
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
         <Link href="#hero" className="text-sm font-semibold uppercase tracking-[0.24em] text-[var(--accent)]">
-          A.B.
+          Shivam
         </Link>
         <nav className="hidden items-center gap-6 lg:flex">
           {navLinks.map((link) => (
